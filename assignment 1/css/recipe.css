@@ -1,0 +1,83 @@
+/* General */
+body {
+  background: white;
+  background-image: url("../assets/imgs/imageedit_1_7362422100.png");
+  background-repeat: repeat;
+  background-size: 45%;
+}
+.bheader-sec {
+  margin: 15px auto;
+  width: fit-content;
+  padding:0px 5px;
+  background-color: #f0f0f0;
+}
+.bheader-sec-secondry{
+  margin: 15px ;
+  width: fit-content;
+  padding:0px 5px;
+  background-color: #f0f0f0;
+}
+.bg-primary{
+  background-color:#FFFFA8 ;
+}
+.text-color-primary,
+.text-color-secondry {
+  font-family: Lucida, Arial, Helvetica, sans-serif;
+  color: #a4a400;
+  text-decoration: underline;
+  letter-spacing: 6px;
+}
+.text-color-primary {
+  font-size: 22pt;
+  font-weight: bold !important;
+}
+.text-color-secondry {
+  font-size: 18pt;
+  font-weight: normal;
+  
+}
+ul {
+  display: block;
+  padding-inline-start: 40px;
+  list-style-image: url('../assets/icons/pie_bullet.png');
+}
+p{
+    font-family: Georgia, Garamond, serif;
+    color: #404040;
+    font-size: 11pt;
+}
+
+.w-90{
+width: 90%;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+.ul {
+  text-decoration: underline double;
+}
+.mx-auto{
+margin: 0 auto;
+}
+.font-bold{
+  font-weight: 800;
+}
+
+.cursor-default{
+  cursor:default;
+
+}
+
+.img-responsive{
+    max-width: 300px;
+}
+.footer{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: start;
+}
