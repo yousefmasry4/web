@@ -13,7 +13,9 @@ let detectEye = document.getElementById('eye');
 
 function startCamera() {
   if (streaming) return;
-  navigator.mediaDevices.getUserMedia({video: true, audio: false})
+  navigator.mediaDevices.getUserMedia({video:  {
+    facingMode: 'environment'
+  }, audio: false})
     .then(function(s) {
     stream = s;
     video.srcObject = s;
