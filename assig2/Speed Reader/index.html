@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>17101264 | youssef el masry</title>
+    </head>
+    <body>
+        <header>
+            <h1>Speed Reader</h1>
+        </header>
+        <div id = "Ans" class = "Ans"></div>
+        <div class = "ctrl">
+            <div class = "div-1">
+                <h2>Play Controls:</h2>
+                <button class="play-control-btn" id="Start" onclick="onStartClicked()">Start</button>
+                <button class="play-control-btn" id = "Stop" onclick="onStopClicked()" disabled>Stop</button>
+            </div>
+            <div class = "div-2">
+                <h2>Speed:</h2>
+                <select name ="speed" id="Speed" onchange="onSpeedChanged()">
+                    <option value = "500">50 wpm</option>
+                    <option value = "200"> 300 wpm</option>
+                    <option value = "171" selected>350 wpm</option>
+                    <option value = "150">400 wpm</option>
+                    <option value = "133">450 wpm</option>
+                    <option value = "120">500 wpm</option>
+                </select>
+            </div>
+            <div class="div-3">
+                <h2>Size:</h2>
+                <input type = "radio" id ="medium" value = "medium" name="size"  onclick="Medium()" checked><label>Medium</label>
+                <input type = "radio" id ="big" value = "big" name="size" onclick="Big()"><label>Big</label>
+                <input type = "radio" id ="bigger" value = "bigger" name="size" onclick="Bigger()"><label>Bigger</label>
+            </div>
+            <div class="div-4">
+                <h2>Input Text</h2>
+                <textarea id="textArea" rows="10" cols="80"></textarea>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

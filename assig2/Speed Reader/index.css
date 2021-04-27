@@ -1,0 +1,67 @@
+body{
+    background: #EAF6F6;
+    font-family: 'Garamond' , 'sans-serif';
+    font-size:  12pt;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    padding: 2px;
+    border-bottom: 1px solid #8EBEBE;
+}
+.Ans{
+    width: 80%;
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 36pt;
+    font-family: 'monospace';
+    line-height: 100px;
+    border : 2px solid #91ff00;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.ctrl{
+    width: 80%;
+    margin: auto;
+}
+.ctrl>div{
+    display : inline-block;
+    text-align: left;
+}
+
+.play-control-btn{
+    width : 49%;
+    padding: 2px;
+    background: #FFFFFF;
+    border : 1px solid grey;
+}
+.play-control-btn:disabled{
+    background: lightgray;
+}
+select{
+    width: 100%;
+}
+label{
+    margin-right :20%
+}
+textarea{
+    width: 100%;
+    border : 1px solid grey;
+}
+.div-1{
+    width:35%;
+    margin-right: 2%;
+}
+.div-2{
+    width: 20%;
+    margin-right: 2%;
+}
+.div-3{
+    width: 40%;
+}
+.div-4{
+    width: 100%;
+}
